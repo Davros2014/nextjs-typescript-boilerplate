@@ -1,14 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Set up to use as a typescript project and styling and design system set up with styled-components and styled-system respectively.
 
 ## Getting Started
 
-First, run the development server:
+First, cd into the directory you wish to use or mkdir <projectName> and cd into that:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Then in the terminal run: npx create-next-app --use-npm --example https://github.com/Davros2014/nextjs-typescript-boilerplate .
+
+https://github.com/Dey-Sumit/Next-ts-tailwind-mongo-Boilerplate/tree/next-ts-tailwind
+
+@period at the end indicates that you want the repo installing in the selected directory
+@--use-npm - state explicitly unless you wish to use yarn
+@--example or -e - use if you wish to use an existing repo as a base
+
+Then run: npm run dev or npm next
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -32,4 +38,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # nextjs-typescript-boilerplate
