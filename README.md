@@ -6,11 +6,9 @@ Set up to use as a typescript project and styling and design system set up with 
 
 First, cd into the directory you wish to use or mkdir <projectName> and cd into that:
 
-Then in the terminal run: npx create-next-app --use-npm --example https://github.com/Davros2014/nextjs-typescript-boilerplate .
+Then in the terminal run: npx create-next-app --example https://github.com/Davros2014/nextjs-typescript-boilerplate . --use-npm
 
-https://github.com/Dey-Sumit/Next-ts-tailwind-mongo-Boilerplate/tree/next-ts-tailwind
-
-@period at the end indicates that you want the repo installing in the selected directory
+@period after the Url indicates that you want the repo installing in the selected directory
 @--use-npm - state explicitly unless you wish to use yarn
 @--example or -e - use if you wish to use an existing repo as a base
 

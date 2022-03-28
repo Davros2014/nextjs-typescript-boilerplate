@@ -13,15 +13,16 @@ const StyledTestComponent = styled.main`
   & h1 {
     margin: 0;
     line-height: 1.15;
-    font-size: 4rem;
+    font-size: clamp(3.2rem, 4vw, 3.8rem);
+    margin-bottom: 1rem;
   }
   & h2 {
     margin: 0 0 1rem 0;
-    font-size: 1.5rem;
+    font-size: clamp(1.8rem, 2vw, 2.8rem);
   }
   & p {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: clamp(1.4rem, 2vw, 1.6rem);
     line-height: 1.5;
   }
 `;

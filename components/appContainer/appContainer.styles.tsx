@@ -1,6 +1,6 @@
 import styled from 'styled-components';
     
 const StyledAppContainer = styled.div`
-    border: 12px solid blue;    
+    background-color: rgba(, 243, 243, 0.8); 
 `
 export default StyledAppContainer;
